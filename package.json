@@ -1,0 +1,18 @@
+{
+  "name": "data-convert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create:pricebook": "node ./convertPricebook.js",
+    "build": "npm run create:pricebook"
+  },
+  "author": "Nikhil Kadam",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.15.4",
+    "csvtojson": "^2.0.10",
+    "xmlbuilder": "^15.1.1"
+  }
+}
